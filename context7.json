@@ -1,8 +1,4 @@
 {
-  "$schema": "https://context7.com/schema/v1/context7.json",
-  "projectTitle": "Jumpseller API",
-  "description": "Ecommerce platform API for creating and managing online stores, products, orders, customers, shipping, payments, and themes.",
-  "folders": ["."],
   "url": "https://context7.com/jumpseller/api-docs",
   "public_key": "pk_eBRMSFh6lRsv6mUiZMEqv"
 }
