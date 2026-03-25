@@ -31,7 +31,6 @@ curl -u YOUR_LOGIN:YOUR_AUTHTOKEN https://api.jumpseller.com/v1/products.json
 - [OpenAPI Spec](openapi.json) - Full API specification
 - [Live API Reference](https://api.jumpseller.com/support/api) - Interactive documentation
 - [OAuth 2 Guide](https://jumpseller.com/support/oauth-2) - For building Jumpseller Apps
-- [Ruby API Wrapper](https://gitlab.com/jumpseller-api/ruby) - Official Ruby client
 
 ## Rate Limits
 
