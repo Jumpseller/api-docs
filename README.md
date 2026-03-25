@@ -39,6 +39,12 @@ curl -u YOUR_LOGIN:YOUR_AUTHTOKEN https://api.jumpseller.com/v1/products.json
 - 20 requests per second
 - Rate limit headers included in every response
 
+## Branding & Legal
+
+- **Logo:** https://jumpseller.com/images/brand/jumpseller-logo-26.svg
+- **Support:** support@jumpseller.com
+- **Terms of Service:** https://jumpseller.com/terms/
+
 ## License
 
 This documentation is provided by [Jumpseller](https://jumpseller.com) for use by developers and AI agents building integrations with the platform.
