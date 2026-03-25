@@ -32,6 +32,18 @@ curl -u YOUR_LOGIN:YOUR_AUTHTOKEN https://api.jumpseller.com/v1/products.json
 - [Live API Reference](https://api.jumpseller.com/support/api) - Interactive documentation
 - [OAuth 2 Guide](https://jumpseller.com/support/oauth-2) - For building Jumpseller Apps
 
+## MCP Integration (AI Agents)
+
+Connect the Jumpseller API as native tools in Claude, Cursor, Windsurf, or any MCP-compatible AI agent:
+
+```bash
+npx openmcp install https://api.jumpseller.com/swagger.json --client cursor
+```
+
+This prompts for your API credentials (login + authtoken) and creates a local config. Replace `cursor` with `claude` or your preferred client.
+
+Once installed, your AI agent can directly call Jumpseller API endpoints — create stores, manage products, process orders, and more — without writing HTTP requests manually.
+
 ## Rate Limits
 
 - 800 requests per minute
