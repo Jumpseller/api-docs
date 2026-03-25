@@ -33,7 +33,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_store"
+            ]
           }
         ],
         "parameters": [],
@@ -95,7 +97,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_store"
+            ]
           }
         ],
         "parameters": [],
@@ -160,7 +164,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_hooks"
+            ]
           }
         ],
         "parameters": [
@@ -230,7 +236,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_hooks"
+            ]
           }
         ],
         "parameters": [],
@@ -314,7 +322,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_hooks"
+            ]
           }
         ],
         "parameters": [
@@ -395,7 +405,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_hooks"
+            ]
           }
         ],
         "parameters": [
@@ -488,7 +500,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_hooks"
+            ]
           }
         ],
         "parameters": [
@@ -572,7 +586,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_apps"
+            ]
           }
         ],
         "parameters": [],
@@ -677,7 +693,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_apps"
+            ]
           }
         ],
         "parameters": [],
@@ -808,7 +826,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_apps"
+            ]
           }
         ],
         "parameters": [
@@ -948,7 +968,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_apps"
+            ]
           }
         ],
         "parameters": [
@@ -1077,7 +1099,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_apps"
+            ]
           }
         ],
         "parameters": [
@@ -1149,7 +1173,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_apps"
+            ]
           }
         ],
         "parameters": [
@@ -1230,7 +1256,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_apps"
+            ]
           }
         ],
         "parameters": [
@@ -1311,7 +1339,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_apps"
+            ]
           }
         ],
         "parameters": [
@@ -1392,7 +1422,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_apps"
+            ]
           }
         ],
         "parameters": [
@@ -1473,7 +1505,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -1546,7 +1580,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -1624,7 +1660,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [],
@@ -1686,7 +1724,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -1768,7 +1808,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -1861,7 +1903,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -1950,7 +1994,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -2040,7 +2086,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -2126,7 +2174,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -2211,7 +2261,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -2292,7 +2344,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -2364,7 +2418,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -2441,7 +2497,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -2530,7 +2588,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -2607,7 +2667,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -2740,7 +2802,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -2817,7 +2881,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -2895,7 +2961,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -2971,7 +3039,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -3055,7 +3125,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -3151,7 +3223,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -3237,7 +3311,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -3324,7 +3400,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -3412,7 +3490,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -3498,7 +3578,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -3592,7 +3674,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -3698,7 +3782,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -3794,7 +3880,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -3878,7 +3966,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -3976,7 +4066,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -4053,7 +4145,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -4141,7 +4235,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -4217,7 +4313,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -4294,7 +4392,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -4372,7 +4472,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -4469,7 +4571,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -4545,7 +4649,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -4629,7 +4735,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -4715,7 +4823,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -4792,7 +4902,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -4870,7 +4982,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -4946,7 +5060,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -5030,7 +5146,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -5116,7 +5234,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -5193,7 +5313,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -5271,7 +5393,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -5347,7 +5471,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -5434,7 +5560,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -5531,7 +5659,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -5608,7 +5738,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -5696,7 +5828,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -5772,7 +5906,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -5875,7 +6011,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -5968,7 +6106,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_store"
+            ]
           }
         ],
         "parameters": [],
@@ -6029,7 +6169,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_store"
+            ]
           }
         ],
         "parameters": [],
@@ -6103,7 +6245,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_store"
+            ]
           }
         ],
         "parameters": [],
@@ -6165,7 +6309,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_store"
+            ]
           }
         ],
         "parameters": [
@@ -6246,7 +6392,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_store"
+            ]
           }
         ],
         "parameters": [
@@ -6339,7 +6487,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_store"
+            ]
           }
         ],
         "parameters": [
@@ -6422,7 +6572,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_orders"
+            ]
           }
         ],
         "parameters": [
@@ -6574,7 +6726,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_orders"
+            ]
           }
         ],
         "parameters": [
@@ -6652,7 +6806,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_orders"
+            ]
           }
         ],
         "parameters": [],
@@ -6714,7 +6870,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_orders"
+            ]
           }
         ],
         "parameters": [
@@ -6805,7 +6963,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_orders"
+            ]
           }
         ],
         "parameters": [
@@ -6887,7 +7047,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_orders"
+            ]
           }
         ],
         "parameters": [
@@ -6983,7 +7145,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_orders"
+            ]
           }
         ],
         "parameters": [
@@ -7165,7 +7329,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_orders"
+            ]
           }
         ],
         "parameters": [
@@ -7248,7 +7414,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_orders"
+            ]
           }
         ],
         "parameters": [
@@ -7322,7 +7490,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_orders"
+            ]
           }
         ],
         "parameters": [
@@ -7407,7 +7577,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_orders"
+            ]
           }
         ],
         "parameters": [
@@ -7481,7 +7653,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_orders"
+            ]
           }
         ],
         "parameters": [
@@ -7566,7 +7740,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_orders"
+            ]
           }
         ],
         "parameters": [
@@ -7669,7 +7845,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_orders"
+            ]
           }
         ],
         "parameters": [
@@ -7762,7 +7940,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_fulfillments"
+            ]
           }
         ],
         "parameters": [],
@@ -7824,7 +8004,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_fulfillments"
+            ]
           }
         ],
         "parameters": [],
@@ -7900,7 +8082,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_fulfillments"
+            ]
           }
         ],
         "parameters": [
@@ -7970,7 +8154,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_fulfillments"
+            ]
           }
         ],
         "parameters": [],
@@ -8045,7 +8231,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_fulfillments"
+            ]
           }
         ],
         "parameters": [
@@ -8155,7 +8343,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_fulfillments"
+            ]
           }
         ],
         "parameters": [
@@ -8236,7 +8426,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_fulfillments"
+            ]
           }
         ],
         "parameters": [
@@ -8331,7 +8523,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_fulfillments"
+            ]
           }
         ],
         "parameters": [
@@ -8417,7 +8611,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_pages"
+            ]
           }
         ],
         "parameters": [
@@ -8487,7 +8683,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_pages"
+            ]
           }
         ],
         "parameters": [],
@@ -8561,7 +8759,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_pages"
+            ]
           }
         ],
         "parameters": [],
@@ -8623,7 +8823,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_pages"
+            ]
           }
         ],
         "parameters": [
@@ -8704,7 +8906,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_pages"
+            ]
           }
         ],
         "parameters": [
@@ -8797,7 +9001,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_pages"
+            ]
           }
         ],
         "parameters": [
@@ -8880,7 +9086,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_pages"
+            ]
           }
         ],
         "parameters": [
@@ -8957,7 +9165,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_pages"
+            ]
           }
         ],
         "parameters": [
@@ -9035,7 +9245,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_pages"
+            ]
           }
         ],
         "parameters": [
@@ -9111,7 +9323,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_pages"
+            ]
           }
         ],
         "parameters": [
@@ -9195,7 +9409,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_pages"
+            ]
           }
         ],
         "parameters": [
@@ -9291,7 +9507,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_pages"
+            ]
           }
         ],
         "parameters": [
@@ -9377,7 +9595,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_customers"
+            ]
           }
         ],
         "parameters": [
@@ -9447,7 +9667,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_customers"
+            ]
           }
         ],
         "parameters": [],
@@ -9531,7 +9753,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_customers"
+            ]
           }
         ],
         "parameters": [],
@@ -9593,7 +9817,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_customers"
+            ]
           }
         ],
         "parameters": [
@@ -9675,7 +9901,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_customers"
+            ]
           }
         ],
         "parameters": [
@@ -9766,7 +9994,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_customers"
+            ]
           }
         ],
         "parameters": [
@@ -9872,7 +10102,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_customers"
+            ]
           }
         ],
         "parameters": [
@@ -9946,7 +10178,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_customers"
+            ]
           }
         ],
         "parameters": [
@@ -10032,7 +10266,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_customers"
+            ]
           }
         ],
         "parameters": [
@@ -10109,7 +10345,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_customers"
+            ]
           }
         ],
         "parameters": [
@@ -10202,7 +10440,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_customers"
+            ]
           }
         ],
         "parameters": [
@@ -10272,7 +10512,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_customers"
+            ]
           }
         ],
         "parameters": [],
@@ -10356,7 +10598,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_customers"
+            ]
           }
         ],
         "parameters": [
@@ -10437,7 +10681,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_customers"
+            ]
           }
         ],
         "parameters": [
@@ -10530,7 +10776,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_customers"
+            ]
           }
         ],
         "parameters": [
@@ -10613,7 +10861,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_customers"
+            ]
           }
         ],
         "parameters": [
@@ -10697,7 +10947,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_customers"
+            ]
           }
         ],
         "parameters": [
@@ -10795,7 +11047,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_customers"
+            ]
           }
         ],
         "parameters": [
@@ -10888,7 +11142,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_customers"
+            ]
           }
         ],
         "parameters": [
@@ -10965,7 +11221,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_customers"
+            ]
           }
         ],
         "parameters": [
@@ -11053,7 +11311,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_customers"
+            ]
           }
         ],
         "parameters": [
@@ -11137,7 +11397,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_customers"
+            ]
           }
         ],
         "parameters": [
@@ -11243,7 +11505,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_customers"
+            ]
           }
         ],
         "parameters": [
@@ -11329,7 +11593,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_promotions"
+            ]
           }
         ],
         "parameters": [
@@ -11411,7 +11677,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_promotions"
+            ]
           }
         ],
         "parameters": [],
@@ -11495,7 +11763,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_promotions"
+            ]
           }
         ],
         "parameters": [
@@ -11576,7 +11846,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_promotions"
+            ]
           }
         ],
         "parameters": [
@@ -11669,7 +11941,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_promotions"
+            ]
           }
         ],
         "parameters": [
@@ -11752,7 +12026,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_payment_methods"
+            ]
           }
         ],
         "parameters": [],
@@ -11815,7 +12091,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_payment_methods"
+            ]
           }
         ],
         "parameters": [],
@@ -11899,7 +12177,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_payment_methods"
+            ]
           }
         ],
         "parameters": [
@@ -11982,7 +12262,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_shipping_methods"
+            ]
           }
         ],
         "parameters": [
@@ -12055,7 +12337,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_shipping_methods"
+            ]
           }
         ],
         "parameters": [],
@@ -12139,7 +12423,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_shipping_methods"
+            ]
           }
         ],
         "parameters": [
@@ -12220,7 +12506,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_shipping_methods"
+            ]
           }
         ],
         "parameters": [
@@ -12313,7 +12601,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_shipping_methods"
+            ]
           }
         ],
         "parameters": [
@@ -12396,7 +12686,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_store"
+            ]
           }
         ],
         "parameters": [],
@@ -12459,7 +12751,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_store"
+            ]
           }
         ],
         "parameters": [],
@@ -12532,7 +12826,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_store"
+            ]
           }
         ],
         "parameters": [
@@ -12609,7 +12905,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_store"
+            ]
           }
         ],
         "parameters": [
@@ -12684,7 +12982,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_store"
+            ]
           }
         ],
         "parameters": [
@@ -12760,7 +13060,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [],
@@ -12823,7 +13125,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [],
@@ -12897,7 +13201,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -12978,7 +13284,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -13071,7 +13379,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -13154,7 +13464,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -13228,7 +13540,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -13313,7 +13627,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -13404,7 +13720,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -13507,7 +13825,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "parameters": [
@@ -13600,7 +13920,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_settings"
+            ]
           }
         ],
         "parameters": [
@@ -13671,7 +13993,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_settings"
+            ]
           }
         ],
         "parameters": [],
@@ -13755,7 +14079,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_settings"
+            ]
           }
         ],
         "parameters": [
@@ -13836,7 +14162,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_settings"
+            ]
           }
         ],
         "parameters": [
@@ -13929,7 +14257,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_settings"
+            ]
           }
         ],
         "parameters": [
@@ -14429,7 +14759,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_taxes"
+            ]
           }
         ],
         "parameters": [],
@@ -14492,7 +14824,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_taxes"
+            ]
           }
         ],
         "parameters": [],
@@ -14576,7 +14910,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_taxes"
+            ]
           }
         ],
         "parameters": [
@@ -14652,7 +14988,7 @@
         "security": [
           {
             "BasicAuthentication": [
-              "assets"
+              "store_setup"
             ]
           },
           {
@@ -14660,7 +14996,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_store_setup"
+            ]
           }
         ],
         "requestBody": {
@@ -14734,7 +15072,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_orders"
+            ]
           }
         ],
         "parameters": [
@@ -14886,7 +15226,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_transaction_ledgers"
+            ]
           }
         ],
         "parameters": [],
@@ -14952,7 +15294,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "read_products"
+            ]
           }
         ],
         "parameters": [
@@ -15064,7 +15408,9 @@
             "authtokenParameter": []
           },
           {
-            "OAuth2": []
+            "OAuth2": [
+              "write_products"
+            ]
           }
         ],
         "requestBody": {
