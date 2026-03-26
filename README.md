@@ -28,7 +28,8 @@ curl -u YOUR_LOGIN:YOUR_AUTHTOKEN https://api.jumpseller.com/v1/products.json
 
 ## Resources
 
-- [OpenAPI Spec](openapi.json) - Full API specification
+- [OpenAPI Spec](openapi.json) - Full API specification (109 endpoints)
+- [OpenAPI Light](openapi-light.json) - Top 30 endpoints, no code samples (for ChatGPT, Copilot, and other AI platforms with endpoint limits)
 - [Live API Reference](https://api.jumpseller.com/support/api) - Interactive documentation
 - [OAuth 2 Guide](https://jumpseller.com/support/oauth-2) - For building Jumpseller Apps
 
