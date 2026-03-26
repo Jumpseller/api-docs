@@ -1,5 +1,5 @@
 {
-  "openapi": "3.0.3",
+  "openapi": "3.1.0",
   "info": {
     "title": "Jumpseller API",
     "description": "Jumpseller API — light version with the 30 most common endpoints. Full spec at https://api.jumpseller.com/swagger.json",
@@ -36,14 +36,14 @@
         ],
         "requestBody": {
           "description": "Store setup parameters.",
-          "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/StoreSetupCreate"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
           "201": {
@@ -411,7 +411,6 @@
             "name": "query",
             "in": "query",
             "description": "Text to query for the Product",
-            "required": true,
             "schema": {
               "type": "string",
               "format": "string"
@@ -861,11 +860,11 @@
             "name": "id",
             "in": "path",
             "description": "Id of the Category",
-            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
+            },
+            "required": true
           }
         ],
         "requestBody": {
@@ -1060,11 +1059,11 @@
             "name": "id",
             "in": "path",
             "description": "Id of the Order",
-            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
+            },
+            "required": true
           }
         ],
         "responses": {
@@ -1117,11 +1116,11 @@
             "name": "id",
             "in": "path",
             "description": "Id of the Order",
-            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
+            },
+            "required": true
           }
         ],
         "requestBody": {
@@ -1444,7 +1443,6 @@
             "name": "query",
             "in": "query",
             "description": "Text to query for the Customer. If empty return all customers.",
-            "required": true,
             "schema": {
               "type": "string",
               "format": "string"
@@ -1454,7 +1452,6 @@
             "name": "order",
             "in": "query",
             "description": "Sort Customers by creation date, 'asc' for ascending order or 'desc' for descending order.",
-            "required": false,
             "schema": {
               "type": "string",
               "format": "string",
@@ -1512,10 +1509,10 @@
             "name": "enabled",
             "in": "path",
             "description": "If shipping method is enabled",
-            "required": false,
             "schema": {
               "type": "boolean"
-            }
+            },
+            "required": true
           }
         ],
         "responses": {
@@ -1755,11 +1752,11 @@
             "name": "id",
             "in": "path",
             "description": "Id of the Page",
-            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
+            },
+            "required": true
           }
         ],
         "responses": {
@@ -3830,7 +3827,6 @@
           },
           "external": {
             "type": "boolean",
-            "required": false,
             "description": "true if it's an external link. If not present or false, it's a file",
             "default": false
           }
@@ -4454,21 +4450,21 @@
         "name": "id",
         "in": "path",
         "description": "Id of the Product",
-        "required": true,
         "schema": {
           "type": "integer",
           "format": "int32"
-        }
+        },
+        "required": true
       },
       "CustomerIDParam": {
         "name": "id",
         "in": "path",
         "description": "Id of the Customer",
-        "required": true,
         "schema": {
           "type": "integer",
           "format": "int32"
-        }
+        },
+        "required": true
       },
       "LimitParam": {
         "name": "limit",
