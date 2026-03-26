@@ -20,15 +20,6 @@
         "description": "Creates a new store owned by the authenticated account. Requires a paying subscription with at least 24 hours since first payment. Limited to 5 store creations per account per day. Returns the new store API credentials.",
         "security": [
           {
-            "BasicAuthentication": [
-              "store_setup"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
-          {
             "OAuth2": [
               "write_store_setup"
             ]
@@ -69,7 +60,8 @@
             "description": "Forbidden - store creation is available 24 hours after first payment."
           }
         },
-        "x-openai-isConsequential": true
+        "x-openai-isConsequential": true,
+        "operationId": "createStore"
       }
     },
     "/store/info.json": {
@@ -79,15 +71,6 @@
         ],
         "summary": "Retrieve Store Information.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "assets"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_store"
@@ -106,7 +89,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getStoreInfo"
       }
     },
     "/products.json": {
@@ -116,15 +100,6 @@
         ],
         "summary": "Retrieve all Products.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "products"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_products"
@@ -156,7 +131,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listProducts"
       },
       "post": {
         "tags": [
@@ -164,15 +140,6 @@
         ],
         "summary": "Create a new Product.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "products"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "write_products"
@@ -208,7 +175,8 @@
           }
         },
         "x-codegen-request-body-name": "body",
-        "x-openai-isConsequential": true
+        "x-openai-isConsequential": true,
+        "operationId": "createProduct"
       }
     },
     "/products/{id}.json": {
@@ -218,15 +186,6 @@
         ],
         "summary": "Retrieve a single Product.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "products"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_products"
@@ -262,7 +221,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getProduct"
       },
       "put": {
         "tags": [
@@ -270,15 +230,6 @@
         ],
         "summary": "Modify an existing Product.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "products"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "write_products"
@@ -327,7 +278,8 @@
           }
         },
         "x-codegen-request-body-name": "body",
-        "x-openai-isConsequential": true
+        "x-openai-isConsequential": true,
+        "operationId": "updateProduct"
       },
       "delete": {
         "tags": [
@@ -335,15 +287,6 @@
         ],
         "summary": "Delete an existing Product.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "products"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "write_products"
@@ -377,7 +320,8 @@
             }
           }
         },
-        "x-openai-isConsequential": true
+        "x-openai-isConsequential": true,
+        "operationId": "deleteProduct"
       }
     },
     "/products/search.json": {
@@ -388,15 +332,6 @@
         "summary": "Retrieve a Product List from a query.",
         "description": "Endpoint example: \n\n```text\nhttps://api.jumpseller.com/v1/products/search.json?query=test&fields=name,description \n```",
         "security": [
-          {
-            "BasicAuthentication": [
-              "products"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_products"
@@ -485,7 +420,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "searchProducts"
       }
     },
     "/products/count.json": {
@@ -495,15 +431,6 @@
         ],
         "summary": "Count all Products.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "products"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_products"
@@ -522,7 +449,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "countProducts"
       }
     },
     "/products/{id}/images.json": {
@@ -532,15 +460,6 @@
         ],
         "summary": "Retrieve all Product Images.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "products"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_products"
@@ -576,7 +495,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listProductImages"
       },
       "post": {
         "tags": [
@@ -584,15 +504,6 @@
         ],
         "summary": "Create a new Product Image.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "products"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "write_products"
@@ -628,7 +539,8 @@
           }
         },
         "x-codegen-request-body-name": "body",
-        "x-openai-isConsequential": true
+        "x-openai-isConsequential": true,
+        "operationId": "createProductImage"
       }
     },
     "/products/{id}/variants.json": {
@@ -638,15 +550,6 @@
         ],
         "summary": "Retrieve all Product Variants.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "products"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_products"
@@ -682,7 +585,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listProductVariants"
       },
       "post": {
         "tags": [
@@ -690,15 +594,6 @@
         ],
         "summary": "Create a new Product Variant.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "products"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "write_products"
@@ -744,7 +639,8 @@
           }
         },
         "x-codegen-request-body-name": "body",
-        "x-openai-isConsequential": true
+        "x-openai-isConsequential": true,
+        "operationId": "createProductVariant"
       }
     },
     "/categories.json": {
@@ -754,15 +650,6 @@
         ],
         "summary": "Retrieve all Categories.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "assets"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_store"
@@ -781,7 +668,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listCategories"
       },
       "post": {
         "tags": [
@@ -790,15 +678,6 @@
         "summary": "Create a new Category.",
         "description": "Category's permalink is automatically generated from the given category's name.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "assets"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "write_store"
@@ -830,7 +709,8 @@
           }
         },
         "x-codegen-request-body-name": "body",
-        "x-openai-isConsequential": true
+        "x-openai-isConsequential": true,
+        "operationId": "createCategory"
       }
     },
     "/categories/{id}.json": {
@@ -840,15 +720,6 @@
         ],
         "summary": "Modify an existing Category.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "assets"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "write_store"
@@ -901,7 +772,8 @@
           }
         },
         "x-codegen-request-body-name": "body",
-        "x-openai-isConsequential": true
+        "x-openai-isConsequential": true,
+        "operationId": "updateCategory"
       }
     },
     "/orders.json": {
@@ -911,15 +783,6 @@
         ],
         "summary": "Retrieve all Orders.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "orders"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_orders"
@@ -1029,7 +892,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listOrders"
       }
     },
     "/orders/{id}.json": {
@@ -1039,15 +903,6 @@
         ],
         "summary": "Retrieve a single Order.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "orders"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_orders"
@@ -1087,7 +942,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getOrder"
       },
       "put": {
         "tags": [
@@ -1096,15 +952,6 @@
         "summary": "Modify an existing Order.",
         "description": "Only `status`, `shipment_status`, `tracking_number`, `tracking_company`, `tracking_url`, `additional_information` and `additional_fields` are available for update. An email is send if `shipment_status` changes.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "orders"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "write_orders"
@@ -1157,7 +1004,8 @@
           }
         },
         "x-codegen-request-body-name": "body",
-        "x-openai-isConsequential": true
+        "x-openai-isConsequential": true,
+        "operationId": "updateOrder"
       }
     },
     "/orders/search.json": {
@@ -1168,15 +1016,6 @@
         "summary": "Retrieve an Orders List from a query.",
         "description": "Endpoint example: \n\n```text\n https://api.jumpseller.com/v1/orders/search.json?fulfillment_filters=unfulfilled,fulfilled&status_filters[]=paid&status_filters[]=abandoned&dateFilter=last7days \n```",
         "security": [
-          {
-            "BasicAuthentication": [
-              "orders"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_orders"
@@ -1314,7 +1153,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "searchOrders"
       }
     },
     "/customers.json": {
@@ -1324,15 +1164,6 @@
         ],
         "summary": "Retrieve all Customers.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "customers"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_customers"
@@ -1361,7 +1192,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listCustomers"
       }
     },
     "/customers/{id}.json": {
@@ -1371,15 +1203,6 @@
         ],
         "summary": "Retrieve a single Customer by id.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "customers"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_customers"
@@ -1412,7 +1235,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getCustomer"
       }
     },
     "/customers/search.json": {
@@ -1423,15 +1247,6 @@
         "summary": "Retrieve a Customer List from a query.",
         "description": "Endpoint example: \n\n```text\nhttps://api.jumpseller.com/v1/customers/search.json?query=test&order=desc,description \n```",
         "security": [
-          {
-            "BasicAuthentication": [
-              "customers"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_customers"
@@ -1479,7 +1294,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "searchCustomers"
       }
     },
     "/shipping_methods.json": {
@@ -1489,15 +1305,6 @@
         ],
         "summary": "Retrieve all Store's Shipping Methods.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "shipping_methods"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_shipping_methods"
@@ -1529,7 +1336,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listShippingMethods"
       },
       "post": {
         "tags": [
@@ -1537,15 +1345,6 @@
         ],
         "summary": "Creates a Shipping Method.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "shipping_methods"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "write_shipping_methods"
@@ -1587,7 +1386,8 @@
           }
         },
         "x-codegen-request-body-name": "body",
-        "x-openai-isConsequential": true
+        "x-openai-isConsequential": true,
+        "operationId": "createShippingMethod"
       }
     },
     "/payment_methods.json": {
@@ -1597,15 +1397,6 @@
         ],
         "summary": "Retrieve all Store's Payment Methods.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "payment_methods"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_payment_methods"
@@ -1627,7 +1418,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listPaymentMethods"
       }
     },
     "/pages.json": {
@@ -1637,15 +1429,6 @@
         ],
         "summary": "Retrieve all Pages.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "pages"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_pages"
@@ -1674,7 +1457,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "listPages"
       },
       "post": {
         "tags": [
@@ -1682,15 +1466,6 @@
         ],
         "summary": "Create a new Page.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "pages"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "write_pages"
@@ -1722,7 +1497,8 @@
           }
         },
         "x-codegen-request-body-name": "body",
-        "x-openai-isConsequential": true
+        "x-openai-isConsequential": true,
+        "operationId": "createPage"
       }
     },
     "/pages/{id}.json": {
@@ -1732,15 +1508,6 @@
         ],
         "summary": "Retrieve a single Page by id.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "pages"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_pages"
@@ -1780,7 +1547,8 @@
               }
             }
           }
-        }
+        },
+        "operationId": "getPage"
       }
     },
     "/orders/count.json": {
@@ -1790,15 +1558,6 @@
         ],
         "summary": "Count all Orders.",
         "security": [
-          {
-            "BasicAuthentication": [
-              "orders"
-            ]
-          },
-          {
-            "loginParameter": [],
-            "authtokenParameter": []
-          },
           {
             "OAuth2": [
               "read_orders"
@@ -1817,35 +1576,13 @@
               }
             }
           }
-        }
+        },
+        "operationId": "countOrders"
       }
     }
   },
   "components": {
     "securitySchemes": {
-      "BasicAuthentication": {
-        "type": "http",
-        "scheme": "basic",
-        "description": "Basic authentication in the format of `login:authtoken` or `partner_code:auth_token`."
-      },
-      "loginParameter": {
-        "type": "apiKey",
-        "in": "query",
-        "name": "login",
-        "description": "API OAuth login. Learn how to get yours [here](#section/Authentication)."
-      },
-      "authtokenParameter": {
-        "type": "apiKey",
-        "in": "query",
-        "name": "authtoken",
-        "description": "API OAuth token. Learn how to get yours [here](#section/Authentication)."
-      },
-      "auth_tokenParameter": {
-        "type": "apiKey",
-        "in": "query",
-        "name": "auth_token",
-        "description": "Partner authentication token."
-      },
       "OAuth2": {
         "type": "oauth2",
         "description": "OAuth 2.0 authorization code flow. Register your app at the Jumpseller Admin Panel to get client credentials. See https://jumpseller.com/support/oauth-2/ for details.",
@@ -2395,7 +2132,10 @@
           },
           "promotions": {
             "type": "array",
-            "description": "Promotions used on the given Order"
+            "description": "Promotions used on the given Order",
+            "items": {
+              "type": "string"
+            }
           },
           "customer": {
             "$ref": "#/components/schemas/CustomerSimpleFields"
