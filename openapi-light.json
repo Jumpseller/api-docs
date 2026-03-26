@@ -2076,7 +2076,7 @@
           "barcode": {
             "type": "string",
             "description": "Barcode of the Product's Variant",
-            "default": 123456
+            "default": "123456"
           },
           "stock": {
             "type": "integer",
