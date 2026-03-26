@@ -21052,6 +21052,14 @@
               "name": {
                 "type": "string",
                 "description": "Store name."
+              },
+              "url": {
+                "type": "string",
+                "description": "Store storefront URL."
+              },
+              "admin_url": {
+                "type": "string",
+                "description": "Store admin panel URL."
               }
             }
           },
