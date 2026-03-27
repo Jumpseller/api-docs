@@ -33,17 +33,59 @@ curl -u YOUR_LOGIN:YOUR_AUTHTOKEN https://api.jumpseller.com/v1/products.json
 - [Live API Reference](https://api.jumpseller.com/support/api) - Interactive documentation
 - [OAuth 2 Guide](https://jumpseller.com/support/oauth-2) - For building Jumpseller Apps
 
-## MCP Integration (AI Agents)
+## MCP Server (AI Agents)
 
-Connect the Jumpseller API as native tools in Claude, Cursor, Windsurf, or any MCP-compatible AI agent:
+Jumpseller provides a dedicated [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that exposes 20 store management tools to AI agents like Claude, Cursor, Windsurf, and GitHub Copilot.
+
+**Server URL:** `https://mcp.jumpseller.com`
+**Transport:** Streamable HTTP (JSON-RPC over POST, stateless)
+**Documentation:** [jumpseller.com/support/mcp-server](https://jumpseller.com/support/mcp-server/)
+
+### Quick Setup
+
+```json
+{
+  "mcpServers": {
+    "jumpseller": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://mcp.jumpseller.com/",
+        "--header", "X-LOGIN-KEY:YOUR_LOGIN_KEY",
+        "--header", "X-AUTH-TOKEN:YOUR_AUTH_TOKEN"
+      ]
+    }
+  }
+}
+```
+
+Add this to `claude_desktop_config.json` (Claude), `.cursor/mcp.json` (Cursor), or `~/.codeium/windsurf/mcp_config.json` (Windsurf). Get your credentials from Jumpseller Admin > Settings > API.
+
+### Available Tools (20)
+
+| Area | Tools | Access |
+|------|-------|--------|
+| **Products** | `list_products`, `get_product`, `search_products`, `create_product`, `update_product`, `delete_product` | read/write |
+| **Orders** | `list_orders`, `get_order`, `search_orders`, `update_order` | read/write |
+| **Customers** | `list_customers`, `get_customer`, `search_customers` | read |
+| **Categories** | `list_categories`, `create_category`, `delete_category` | read/write |
+| **Pages** | `list_pages`, `create_page`, `delete_page` | read/write |
+| **Store** | `get_store_info` | read |
+
+Product tools support variants (sizes, colors), images, and categories. Tools are auto-discovered via `tools/list`.
+
+### Authentication
+
+- **API Token:** `X-LOGIN-KEY` + `X-AUTH-TOKEN` headers (for store owners)
+- **OAuth 2.0:** `Authorization: Bearer <token>` with scoped permissions (for third-party apps). See [OAuth 2 Guide](https://jumpseller.com/support/oauth-2).
+
+### OpenAPI-based MCP (alternative)
+
+You can also connect via the OpenAPI spec for full API coverage (109 endpoints):
 
 ```bash
 npx openmcp install https://api.jumpseller.com/swagger.json --client cursor
 ```
-
-This prompts for your API credentials (login + authtoken) and creates a local config. Replace `cursor` with `claude` or your preferred client.
-
-Once installed, your AI agent can directly call Jumpseller API endpoints — create stores, manage products, process orders, and more — without writing HTTP requests manually.
 
 ## Rate Limits
 
