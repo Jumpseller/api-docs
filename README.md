@@ -28,8 +28,7 @@ curl -u YOUR_LOGIN:YOUR_AUTHTOKEN https://api.jumpseller.com/v1/products.json
 
 ## Resources
 
-- [OpenAPI Spec](openapi.json) - Full API specification (109 endpoints)
-- [OpenAPI Light](openapi-light.json) - Top 30 endpoints, no code samples (for ChatGPT, Copilot, and other AI platforms with endpoint limits)
+- [OpenAPI Spec](openapi.json) - Full API specification- [OpenAPI Light](openapi-light.json) - Top 30 endpoints, no code samples (for ChatGPT, Copilot, and other AI platforms with endpoint limits)
 - [Live API Reference](https://api.jumpseller.com/support/api) - Interactive documentation
 - [OAuth 2 Guide](https://jumpseller.com/support/oauth-2) - For building Jumpseller Apps
 
@@ -61,7 +60,7 @@ Jumpseller provides a dedicated [Model Context Protocol (MCP)](https://modelcont
 
 Add this to `claude_desktop_config.json` (Claude), `.cursor/mcp.json` (Cursor), or `~/.codeium/windsurf/mcp_config.json` (Windsurf). Get your credentials from Jumpseller Admin > Settings > API.
 
-### Available Tools (20)
+### Available Tools
 
 | Area | Tools | Access |
 |------|-------|--------|
