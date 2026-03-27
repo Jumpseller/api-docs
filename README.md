@@ -37,8 +37,11 @@ curl -u YOUR_LOGIN:YOUR_AUTHTOKEN https://api.jumpseller.com/v1/products.json
 Jumpseller provides a dedicated [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that exposes 20 store management tools to AI agents like Claude, Cursor, Windsurf, and GitHub Copilot.
 
 **Server URL:** `https://mcp.jumpseller.com`
+
 **Transport:** Streamable HTTP (JSON-RPC over POST, stateless)
+
 **Documentation:** [jumpseller.com/support/mcp-server](https://jumpseller.com/support/mcp-server/)
+
 
 ### Quick Setup
 
